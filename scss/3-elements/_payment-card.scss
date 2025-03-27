@@ -35,7 +35,7 @@
 
         span {
             font-size: 20px;
-            margin-right: 15px;
+            margin-left: 15px;
             letter-spacing: 2px;
         }
 
@@ -55,7 +55,7 @@
     button {
         position: absolute;
         top: 15px;
-        right: 15px;
+        left: 15px;
         opacity: 0;
         visibility: hidden;
         width: 30px;
@@ -87,6 +87,6 @@
 
 @media (max-width: 575px) {
     .payment-card p span {
-        margin-right: 8px;
+        margin-left: 8px;
     }
 }

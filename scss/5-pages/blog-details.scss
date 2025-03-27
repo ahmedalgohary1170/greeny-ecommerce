@@ -30,7 +30,7 @@
     li {
         display: flex;
         align-items: center;
-        margin-right: 40px;
+        margin-left: 40px;
 
         &:last-child {
             margin: 0px;
@@ -38,7 +38,7 @@
 
         i {
             color: var(--primary);
-            margin-right: 10px;
+            margin-left: 10px;
             font-size: 16px;
         }
 
@@ -72,7 +72,7 @@
 }
 
 .blog-details-quote {
-    padding: 60px 60px 60px 180px;
+    padding: 60px 180px 60px 60px;
     border-radius: 10px;
     margin-bottom: 20px;
     background: var(--heading);
@@ -80,11 +80,12 @@
 
     &::before {
         position: absolute;
-        content: "\efcd";
-        left: 60px;
+        content: "\f10e";
+        right: 60px;
         top: 60px;
-        font-size: 60px;
-        font-family: "icofont";
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Font Awesome 5 Free';
         color: var(--primary);
     }
 
@@ -130,7 +131,7 @@
 
 .blog-details-list {
     list-style-type: decimal;
-    margin: 0px 30px 0px 50px;
+    margin: 0px 50px 0px 30px;
 
     li {
         margin-bottom: 25px;
@@ -153,7 +154,7 @@
     }
 
     li {
-        margin-right: 8px;
+        margin-left: 8px;
         display: inline-block;
 
         a {
@@ -184,7 +185,7 @@
     }
 
     li {
-        margin-right: 8px;
+        margin-left: 8px;
         display: inline-block;
 
         a {
@@ -308,7 +309,7 @@
 }
 
 .blog-details-next {
-    text-align: right;
+    text-align: left;
 }
 
 
@@ -344,7 +345,7 @@
 
 .comment-avatar {
     border-radius: 50%;
-    margin-right: 20px;
+    margin-left: 20px;
     border: 2px solid var(--primary);
 
     img {
@@ -385,7 +386,7 @@
         width: 100%;
         padding: 7px 18px;
         border-radius: 6px;
-        margin-right: 20px;
+        margin-left: 20px;
         background: var(--white);
     }
 
@@ -403,13 +404,13 @@
         }
     
         i {
-            margin-right: 5px;
+            margin-left: 5px;
         }
     }
 }
 
 .comment-reply-list {
-    margin-left: 80px;
+    margin-right: 80px;
     margin-top: 35px;
     border-top: 1px solid var(--border);
 }
@@ -455,7 +456,7 @@
 
         &::before {
             font-size: 50px;
-            left: 25px;
+            right: 25px;
             top: 25px;
         }
 
@@ -465,7 +466,7 @@
     }
 
     .blog-details-list {
-        margin: 0px 15px 0px 35px;
+        margin: 0px 35px 0px 15px;
     }
 
     .blog-details-footer {
@@ -498,13 +499,13 @@
         flex-direction: column;
 
         input {
-            margin-right: 0px;
+            margin-left: 0px;
             margin-bottom: 10px;
         }
     }
 
     .comment-reply-list {
-        margin-left: 15px;
+        margin-right: 15px;
     }
 
     .blog-details-form {
@@ -526,6 +527,6 @@
     }
 
     .comment-reply-list {
-        margin-left: 30px;
+        margin-right: 30px;
     }
 }

@@ -19,7 +19,7 @@
     z-index: 2;
     width: 1180px;
     border-radius: 8px;
-    padding: 30px;
+    padding: 30px 30px;
     background: var(--white);
     border: 1px solid var(--border);
     box-shadow: 0px 15px 35px 0px rgba(0, 0, 0, 0.1);
@@ -49,7 +49,7 @@
         position: absolute;
         content: "";
         bottom: -2px;
-        left: 0px;
+        right: 0px;
         width: 50px;
         height: 2px;
         background: var(--primary);
@@ -57,13 +57,13 @@
 }
 
 .megamenu-list {
-    border-left: 1px solid var(--border);
+    border-right: 1px solid var(--border);
 
     li {
         a {
             width: 100%;
             border-radius: 5px;
-            padding: 5px 0px 5px 25px;
+            padding: 5px 25px 5px 0px;
             color: var(--text);
             white-space: nowrap;
             text-transform: capitalize;

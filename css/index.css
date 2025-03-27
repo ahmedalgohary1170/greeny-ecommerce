@@ -45,6 +45,10 @@
   background: linear-gradient(to left, #45f76354, #ffc3d024);
 }
 
+.banner-2 .banner-content {
+  text-align: right;
+}
+
 .banner-content h1 {
   text-transform: capitalize;
   margin-bottom: 22px;

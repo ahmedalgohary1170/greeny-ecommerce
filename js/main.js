@@ -20,7 +20,7 @@ $(window).on("scroll", function(){
 //========================================
 $(window).on("scroll", function(){
     var scroll = $(this).scrollTop();
-    if(scroll > 700){
+    if(scroll > 1000){
         $(".backtop").show();
     }else{
         $(".backtop").hide();

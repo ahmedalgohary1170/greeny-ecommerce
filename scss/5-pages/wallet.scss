@@ -96,13 +96,13 @@
     h6 {
         font-size: 12px;
         font-weight: 500;
-        margin-right: 10px;
+        margin-left: 10px;
         text-transform: uppercase;
     }
 
     ul {
         li {
-            margin-right: 5px;
+            margin-left: 5px;
             margin-bottom: 8px;
             display: inline-block;
     
@@ -154,7 +154,7 @@
             }
 
             th {
-                border-right: 1px solid var(--border);
+                border-left: 1px solid var(--border);
             }
         }
     }

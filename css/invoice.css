@@ -2,7 +2,7 @@
             INVOICE PAGE STYLE
 =========================================*/
 .invoice-recieved {
-  text-align: left;
+  text-align: right;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,12 +55,12 @@
 .invoice-details li h6 small {
   font-size: 14px;
   font-weight: 400;
-  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .invoice-details li p {
   width: 250px;
-  text-align: right;
+  text-align: left;
 }
 
 .table-scroll {
@@ -90,6 +90,6 @@
   }
   .invoice-recieved h6 {
     margin-bottom: 25px;
-    margin-right: 25px;
+    margin-left: 25px;
   }
 }

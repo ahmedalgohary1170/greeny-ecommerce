@@ -65,7 +65,6 @@
   padding: 210px 0px 150px;
   position: relative;
   z-index: 1;
-  background-size: cover !important;
 }
 
 .banner-part::before {
@@ -76,7 +75,6 @@
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(0, 0, 0, 0.4);
 }
 
 .banner-content h1 {
@@ -93,11 +91,47 @@
 }
 
 .banner-btn .btn {
-  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .banner-btn .btn:last-child {
-  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.banner-1 {
+  background: url(../../images/home/classic/01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-1::before {
+  background: -webkit-gradient(linear, left top, right top, from(#08032354), to(#ffffff00));
+  background: linear-gradient(to right, #08032354, #ffffff00);
+}
+
+.banner-2 {
+  background: url(../../images/home/classic/02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-2::before {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000030), to(#00000059));
+  background: linear-gradient(to bottom, #00000030, #00000059);
+}
+
+.banner-3 {
+  background: url(../../images/home/classic/03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-3::before {
+  background: -webkit-gradient(linear, right top, left top, from(#08032366), to(#ffffff00));
+  background: linear-gradient(to left, #08032366, #ffffff00);
 }
 
 @media (max-width: 767px) {

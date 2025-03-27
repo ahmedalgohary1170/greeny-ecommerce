@@ -28,7 +28,7 @@
 
     .form-label {
         font-size: 18px;
-        margin: 0px 8px 0px 0px;
+        margin: 0px 0px 0px 8px;
         color: var(--heading);
     }
 
@@ -83,13 +83,13 @@
             small {
                 font-size: 14px;
                 font-weight: 400;
-                margin-left: 3px;
+                margin-right: 3px;
             }
         }
 
         p {
             width: 250px;
-            text-align: right;
+            text-align: left;
         }
     }
 }

@@ -16,15 +16,15 @@ thead {
             text-transform: capitalize;
             padding: 12px 20px;
             color: var(--white);
-            border-right: 1px solid var(--border);
+            border-left: 1px solid var(--border);
 
             &:first-child {
-                border-radius: 6px 0px 0px 6px;
+                border-radius: 0px 6px 6px 0px;
             }
 
             &:last-child {
-                border-right: none;
-                border-radius: 0px 6px 6px 0px;
+                border-left: none;
+                border-radius: 6px 0px 0px 6px;
             }
         }
     }
@@ -37,10 +37,10 @@ tbody {
         td {
             padding: 12px 20px;
             text-align: center;
-            border-right: 1px solid var(--border);
+            border-left: 1px solid var(--border);
 
             &:last-child {
-                border-right: none;
+                border-left: none;
             }
         }
     }
@@ -64,7 +64,7 @@ tbody {
 
         small {
             font-size: 13px;
-            margin-left: 3px;
+            margin-right: 3px;
             color: var(--gray);
             font-family: sans-serif;
         }
@@ -75,7 +75,7 @@ tbody {
     p {
         width: 150px;
         font-size: 15px;
-        text-align: left;
+        text-align: right;
 
         a {
             text-transform: capitalize;

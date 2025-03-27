@@ -14,7 +14,7 @@
 .details-label-group {
     position: absolute;
     top: 20px;
-    left: 20px;
+    right: 20px;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -182,7 +182,7 @@
 
     p {
         font-size: 13px;
-        margin-right: 20px;
+        margin-left: 20px;
         white-space: nowrap;
         text-transform: uppercase;
         color: var(--placeholder);
@@ -235,7 +235,7 @@
 
     del {
         color: var(--red);
-        margin-right: 25px;
+        margin-left: 25px;
     }
 
     span {
@@ -266,7 +266,7 @@
 
 .details-list-title {
     font-weight: 500;
-    margin-right: 15px;
+    margin-left: 15px;
     color: var(--heading);
     text-transform: capitalize;
 }
@@ -275,7 +275,7 @@
     @include flex__center;
 
     li {
-        margin-right: 8px;
+        margin-left: 8px;
 
         a {
             font-size: 14px;
@@ -300,7 +300,7 @@
     @include flex__center;
 
     li {
-        margin-right: 8px;
+        margin-left: 8px;
 
         a {
             width: 35px;
@@ -360,7 +360,7 @@
 
         i {
             font-size: 16px;
-            margin-right: 8px;
+            margin-left: 8px;
         }
     
         span {
@@ -404,7 +404,7 @@
 
     ul {
         list-style: disc;
-        margin-left: 20px;
+        margin-right: 20px;
         margin-top: 25px;
 
         li {
@@ -446,7 +446,7 @@
     th,
     td {
         padding: 12px 25px;
-        text-align: left;
+        text-align: right;
     }
 
     th {
@@ -455,7 +455,7 @@
 
     td {
         &:last-child {
-            border-right: 1px solid var(--border);
+            border-left: 1px solid var(--border);
         }
     }
 }
@@ -478,7 +478,7 @@
 }
 
 .review-avatar {
-    margin-right: 15px;
+    margin-left: 15px;
     border-radius: 50%;
     border: 2px solid var(--primary);
 
@@ -520,7 +520,7 @@
 
     li {
         font-size: 16px;
-        margin-right: 5px;
+        margin-left: 5px;
         color: var(--yellow);
         display: inline-block;
     }
@@ -537,7 +537,7 @@
         width: 100%;
         padding: 7px 18px;
         border-radius: 6px;
-        margin-right: 20px;
+        margin-left: 20px;
         background: var(--white);
     }
 
@@ -555,13 +555,13 @@
         }
     
         i {
-            margin-right: 5px;
+            margin-left: 5px;
         }
     }
 }
 
 .review-reply-list {
-    margin-left: 80px;
+    margin-right: 80px;
     margin-top: 35px;
     border-top: 1px solid var(--border);
 }
@@ -621,7 +621,7 @@
     }
 
     .review-reply-list {
-        margin-left: 25px;
+        margin-right: 25px;
     }
 
     .star-rating label {
@@ -631,6 +631,6 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
     .review-reply-list {
-        margin-left: 30px;
+        margin-right: 30px;
     }
 }

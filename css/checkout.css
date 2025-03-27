@@ -52,7 +52,7 @@
 .checkout-charge ul li span small {
   font-size: 14px;
   font-weight: 400;
-  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .checkout-check {
@@ -72,7 +72,7 @@
 .checkout-check input {
   width: 15px;
   height: 15px;
-  margin-right: 10px;
+  margin-left: 10px;
   margin-top: 4px;
   cursor: pointer;
 }

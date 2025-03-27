@@ -40,7 +40,7 @@
     flex-direction: column;
     position: absolute;
     top: 0px;
-    left: 0px;
+    right: 0px;
 }
 
 .label-text {
@@ -81,7 +81,7 @@
 .product-wish {
     position: absolute;
     top: 0px;
-    right: 0px;
+    left: 0px;
     font-size: 18px;
     color: var(--gray-chalk);
 }
@@ -173,7 +173,7 @@
 
     del {
         color: var(--red);
-        margin-right: 8px;
+        margin-left: 8px;
     }
 
     span {
@@ -229,7 +229,7 @@
         position: absolute;
         content: "";
         top: 0px;
-        left: 0px;
+        right: 0px;
         z-index: 1;
         width: 100%;
         height: 100%;

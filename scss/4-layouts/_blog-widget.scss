@@ -4,7 +4,7 @@
 
 .blog-widget {
     margin-bottom: 30px;
-    margin-left: 5px;
+    margin-right: 5px;
     border-radius: 8px;
     padding: 18px 25px 25px;
     background: var(--white);
@@ -25,7 +25,7 @@
         position: absolute;
         content: "";
         bottom: -2px;
-        left: 0px;
+        right: 0px;
         width: 50px;
         height: 2px;
         background: var(--primary);
@@ -38,7 +38,7 @@
     input {
         width: 100%;
         height: 45px;
-        padding: 0px 15px 0px 60px;
+        padding: 0px 60px 0px 15px;
         border-radius: 8px;
         background: var(--chalk);
         border: 1px solid var(--border);
@@ -52,14 +52,14 @@
     button {
         position: absolute;
         top: 0px;
-        left: 0px;
+        right: 0px;
         width: 45px;
         height: 45px;
         line-height: 45px;
         text-align: center;
         color: var(--white);
         background: var(--primary);
-        border-radius: 8px 0px 0px 8px;
+        border-radius: 0px 8px 8px 0px;
     }
 }
 
@@ -82,7 +82,7 @@
     img {
         width: 100px;
         border-radius: 8px;
-        margin-right: 20px;
+        margin-left: 20px;
         @include cursor__transition;
     }
 }
@@ -140,7 +140,7 @@
 
             span {
                 font-size: 14px;
-                float: right;
+                float: left;
                 width: 30px;
                 height: 30px;
                 line-height: 32px;
@@ -157,7 +157,7 @@
 .blog-widget-tag {
     li {
         display: inline-block;
-        margin: 0px 8px 12px 0px;
+        margin: 0px 0px 12px 8px;
 
         a {
             font-size: 14px;
@@ -179,7 +179,7 @@
 .blog-widget-social {
     li {
         display: inline-block;
-        margin-right: 10px;
+        margin-left: 10px;
 
         a {
             width: 45px;
@@ -202,7 +202,7 @@
 @media (max-width: 575px) {
     .blog-widget-social {
         li {
-            margin-right: 5px;
+            margin-left: 5px;
 
             a {
                 width: 40px;
@@ -237,6 +237,6 @@
 
 @media (max-width: 991px) {
     .blog-widget {
-        margin-left: 0px;
+        margin-right: 0px;
     }
 }

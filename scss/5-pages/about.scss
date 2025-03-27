@@ -24,12 +24,12 @@ body {
     @include flex__center__between;
 
     li {
-        padding-left: 30px;
-        border-left: 1px solid var(--border);
+        padding-right: 30px;
+        border-right: 1px solid var(--border);
 
         &:first-child {
-            border-left: 0px;
-            padding-left: 0px;
+            border-right: 0px;
+            padding-right: 0px;
         }
 
         h3 {
@@ -48,7 +48,7 @@ body {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
-    margin-left: 50px;
+    margin-right: 50px;
 
     img {
         width: 100%;
@@ -70,7 +70,7 @@ body {
 }
 
 .testi-img {
-    margin-right: 80px;
+    margin-left: 80px;
     border-radius: 50%;
     box-shadow: var(--primary-bshadow);
 
@@ -155,7 +155,7 @@ body {
 @media (max-width: 575px) {
     .about-list {
         li {
-            padding-left: 15px;
+            padding-right: 15px;
         }
     }
 }
@@ -166,7 +166,7 @@ body {
     }
 
     .testi-img {
-        margin-right: 0px;
+        margin-left: 0px;
     }
 
     .testi-quote {
@@ -176,7 +176,7 @@ body {
 
 @media (min-width: 768px) and (max-width: 1199px) {
     .testi-img {
-        margin-right: 50px;
+        margin-left: 50px;
     }
 
     .testi-quote {
@@ -190,7 +190,7 @@ body {
     }
 
     .about-img {
-        margin-left: 0px;
+        margin-right: 0px;
     }
 }
 

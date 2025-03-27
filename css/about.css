@@ -26,13 +26,13 @@ body {
 }
 
 .about-list li {
-  padding-left: 30px;
-  border-left: 1px solid var(--border);
+  padding-right: 30px;
+  border-right: 1px solid var(--border);
 }
 
 .about-list li:first-child {
-  border-left: 0px;
-  padding-left: 0px;
+  border-right: 0px;
+  padding-right: 0px;
 }
 
 .about-list li h3 {
@@ -51,7 +51,7 @@ body {
   grid-gap: 20px;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .about-img img {
@@ -81,7 +81,7 @@ body {
 }
 
 .testi-img {
-  margin-right: 80px;
+  margin-left: 80px;
   border-radius: 50%;
   -webkit-box-shadow: var(--primary-bshadow);
           box-shadow: var(--primary-bshadow);
@@ -156,7 +156,7 @@ body {
 
 @media (max-width: 575px) {
   .about-list li {
-    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -168,7 +168,7 @@ body {
             flex-direction: column;
   }
   .testi-img {
-    margin-right: 0px;
+    margin-left: 0px;
   }
   .testi-quote {
     width: 100%;
@@ -177,7 +177,7 @@ body {
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .testi-img {
-    margin-right: 50px;
+    margin-left: 50px;
   }
   .testi-quote {
     width: 100%;
@@ -189,6 +189,6 @@ body {
     margin-bottom: 30px;
   }
   .about-img {
-    margin-left: 0px;
+    margin-right: 0px;
   }
 }

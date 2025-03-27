@@ -92,26 +92,7 @@
 .brand-meta {
     h4 {
         text-transform: capitalize;
-        margin-bottom: 6px;
-    }
-
-    ul {
         margin-bottom: 3px;
-
-        li {
-            font-size: 13px;
-            margin: 0px 1px;
-            color: var(--gray);
-            display: inline-block;
-        }
-
-        .active {
-            color: var(--yellow);
-        }
-
-        .total {
-            color: var(--heading);
-        }
     }
 }
 

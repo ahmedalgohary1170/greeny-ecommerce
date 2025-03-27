@@ -8,7 +8,7 @@
 
 
 .invoice-recieved {
-    text-align: left;
+    text-align: right;
     @include flex__start;
     justify-content: space-between;
 
@@ -40,13 +40,13 @@
             small {
                 font-size: 14px;
                 font-weight: 400;
-                margin-left: 3px;
+                margin-right: 3px;
             }
         }
 
         p {
             width: 250px;
-            text-align: right;
+            text-align: left;
         }
     }
 }
@@ -77,7 +77,7 @@
 
         h6 {
             margin-bottom: 25px;
-            margin-right: 25px;
+            margin-left: 25px;
         }
     }
 }

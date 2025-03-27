@@ -76,6 +76,7 @@
     letter-spacing: 0.3px;
     background-size: 12px 10px;
     text-transform: capitalize;
+    background-position: left .75rem center;
     color: var(--text);
     cursor: pointer;
 
@@ -83,6 +84,11 @@
         box-shadow: none;
         border-color: var(--primary);
     }
+}
+
+.form-check .form-check-input {
+    float: right;
+    margin-left: 0.75em;
 }
 
 .form-check-input:focus {
@@ -155,7 +161,7 @@
     
     i {
         font-size: 15px;
-        margin-right: 5px;
+        margin-left: 5px;
         display: inline-block;
     }
 }

@@ -24,7 +24,7 @@
 
 .user-form-title {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .user-form-title h2 {
@@ -72,7 +72,7 @@
 
 .user-form-social li a i {
   font-size: 16px;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .user-form-social li:last-child {
@@ -159,7 +159,7 @@
 
 .form-button p a {
   font-weight: 500;
-  margin-left: 5px;
+  margin-right: 5px;
   color: var(--primary);
 }
 
@@ -182,7 +182,7 @@
 
 .user-form-remind p a {
   font-weight: 500;
-  margin-left: 5px;
+  margin-right: 5px;
   color: var(--primary);
 }
 

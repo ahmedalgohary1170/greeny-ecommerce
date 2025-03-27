@@ -108,12 +108,12 @@
 .wallet-suggest h6 {
   font-size: 12px;
   font-weight: 500;
-  margin-right: 10px;
+  margin-left: 10px;
   text-transform: uppercase;
 }
 
 .wallet-suggest ul li {
-  margin-right: 5px;
+  margin-left: 5px;
   margin-bottom: 8px;
   display: inline-block;
 }
@@ -162,7 +162,7 @@
 }
 
 .table tbody tr th {
-  border-right: 1px solid var(--border);
+  border-left: 1px solid var(--border);
 }
 
 .table .fw-bold {

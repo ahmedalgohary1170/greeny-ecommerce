@@ -25,7 +25,7 @@
 .header-select {
     width: 100%;
     @include flex__center;
-    border-right: 1px solid var(--green);
+    border-left: 1px solid var(--green);
 
     &:last-child {
         border: none;
@@ -33,7 +33,7 @@
 
     i {
         font-size: 16px;
-        margin-right: 8px;
+        margin-left: 8px;
         color: var(--white);
     }
 
@@ -56,7 +56,7 @@
     @include flex__center__end;
 
     li {
-        margin-left: 35px;
+        margin-right: 35px;
 
         a {
             font-size: 14px;

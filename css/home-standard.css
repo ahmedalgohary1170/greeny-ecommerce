@@ -21,7 +21,7 @@
   padding: 0px 12px;
   border-radius: 3px;
   line-height: 24px;
-  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 2px;
   letter-spacing: 0.3px;
   text-transform: uppercase;
@@ -42,7 +42,7 @@
 .header-top button {
   position: absolute;
   top: 50%;
-  right: 30px;
+  left: 30px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -66,7 +66,7 @@
     margin: 2px auto 5px;
   }
   .header-top button {
-    right: 15px;
+    left: 15px;
   }
 }
 
@@ -98,9 +98,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: 25px;
-  padding-left: 25px;
-  border-left: 1px solid var(--border);
+  margin-right: 25px;
+  padding-right: 25px;
+  border-right: 1px solid var(--border);
   transition: all linear .3s;
   -webkit-transition: all linear .3s;
   -moz-transition: all linear .3s;
@@ -120,7 +120,7 @@
 
 .navbar-select i {
   font-size: 16px;
-  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .dropdown:hover .dropdown-position-list {
@@ -147,7 +147,7 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .navbar-list li {
-    margin-right: 18px;
+    margin-left: 18px;
   }
   .navbar-link {
     font-size: 15px;
@@ -183,7 +183,7 @@
 
 .banner-category-head i {
   font-size: 16px;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .banner-category-list {
@@ -236,8 +236,8 @@
 .banner-category-item a::before {
   position: absolute;
   top: 50%;
-  right: 10px;
-  content: "\f054";
+  left: 10px;
+  content: "\f053";
   font-size: 10px;
   font-weight: 900;
   font-family: "Font Awesome 5 Free";
@@ -247,7 +247,7 @@
 
 .banner-category-item a i {
   font-size: 20px;
-  margin-right: 15px;
+  margin-left: 15px;
   display: inline-block;
 }
 
@@ -257,7 +257,7 @@
   max-width: -moz-fit-content;
   max-width: fit-content;
   top: 0px;
-  left: 235px;
+  right: 235px;
   z-index: 1;
   padding: 20px;
   border-radius: 5px;
@@ -269,8 +269,8 @@
   -moz-transition: all linear .3s;
   -ms-transition: all linear .3s;
   -o-transition: all linear .3s;
-  -webkit-box-shadow: 15px 15px 25px 0px rgba(0, 0, 0, 0.08);
-          box-shadow: 15px 15px 25px 0px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: -15px 15px 25px 0px rgba(0, 0, 0, 0.08);
+          box-shadow: -15px 15px 25px 0px rgba(0, 0, 0, 0.08);
 }
 
 .banner-category-dropdown h5 {
@@ -292,11 +292,11 @@
 }
 
 .banner-sub-category ul {
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .banner-sub-category ul:last-child {
-  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .banner-sub-category ul li {
@@ -420,7 +420,7 @@
     height: 430px;
   }
   .banner-category-dropdown {
-    left: 195px;
+    right: 195px;
   }
 }
 
@@ -467,7 +467,10 @@
 }
 
 .promo-content {
-  background-size: cover !important;
+  background: url(../../images/promo/home/09.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 60px 0px;
   border-radius: 8px;
   text-align: center;
